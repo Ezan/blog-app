@@ -1,0 +1,44 @@
+header .navbar {
+  padding: 25px 0px;
+}
+
+.background-header .navbar-brand h2 {
+  color: #121212 !important;
+}
+.background-header .navbar-nav .nav-link {
+  color: #1e1e1e !important;
+}
+
+.navbar .navbar-brand {
+  float: left;
+  margin-top: -12px;
+  outline: none;
+}
+.navbar .navbar-brand h2 {
+  color: #1e1e1e;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 0px 15px;
+}
+.navbar .navbar-nav .nav-link {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #1e1e1e;
+  transition: all 0.3s;
+  &:hover {
+    color: wheat;
+  }
+}
